@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — NeuralCanvas</title>
+<meta name="description" content="Privacy policy for NeuralCanvas, com.proApps.aiimagegenerator.">
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a2e; --muted:#5b6478; --rule:#e4e7ee;
+    --accent:#0a7ea4; --card:#f7f9fc; --warn:#f6f2ff; --warnrule:#d9ccf5;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#0d1017; --fg:#e6e9f0; --muted:#9aa4b8; --rule:#232838;
+           --accent:#4fd1e5; --card:#151a24; --warn:#1b1630; --warnrule:#3a2d63; }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; padding:2.5rem 1.25rem 4rem;
+    background:var(--bg); color:var(--fg);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  main{max-width:760px;margin:0 auto}
+  h1{font-size:1.85rem;line-height:1.25;margin:0 0 .4rem}
+  h2{font-size:1.2rem;margin:2.4rem 0 .6rem;padding-top:1.1rem;border-top:1px solid var(--rule)}
+  h3{font-size:1rem;margin:1.4rem 0 .4rem}
+  p,li{color:var(--fg)}
+  a{color:var(--accent)}
+  .meta{color:var(--muted);font-size:.92rem;margin:0 0 1.6rem}
+  .meta strong{color:var(--fg)}
+  .lede{background:var(--card);border:1px solid var(--rule);border-radius:10px;padding:1rem 1.15rem;margin:0 0 1.5rem}
+  .notice{background:var(--warn);border:1px solid var(--warnrule);border-radius:10px;padding:1rem 1.15rem;margin:1.2rem 0}
+  ul{padding-left:1.25rem}
+  li{margin:.3rem 0}
+  table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.95rem;display:block;overflow-x:auto}
+  th,td{border:1px solid var(--rule);padding:.55rem .7rem;text-align:left;vertical-align:top}
+  th{background:var(--card);font-weight:600}
+  code{background:var(--card);border:1px solid var(--rule);border-radius:4px;padding:.1rem .35rem;font-size:.9em}
+  footer{margin-top:3rem;padding-top:1.2rem;border-top:1px solid var(--rule);color:var(--muted);font-size:.9rem}
+</style>
+</head>
+<body>
+<main>
+
+<h1>Privacy Policy — NeuralCanvas</h1>
+<p class="meta">
+  <strong>Effective date:</strong> 3 October 2026 · <strong>Last updated:</strong> 3 October 2026<br>
+  <strong>App:</strong> NeuralCanvas · <code>com.proApps.aiimagegenerator</code><br>
+  <strong>Publisher:</strong> greybits · <strong>Contact:</strong>
+  <a href="mailto:greysonmiller67@gmail.com">greysonmiller67@gmail.com</a>
+</p>
+
+<p class="lede">This policy explains what the app collects, what it sends, and what it never touches.
+It is written in plain language. If anything is unclear, write to the address above.</p>
+
+<h2>1. What the app does</h2>
+<p>NeuralCanvas turns text prompts into AI-generated images. It runs on your phone, uses Pollinations.ai
+to render each image, and shows ads from Google AdMob so it can stay free. There is no account system,
+no sign-up and no user profile.</p>
+
+<h2>2. What stays on your device</h2>
+<p>Stored in private app storage that only this app can read:</p>
+<ul>
+  <li>Generated images and the prompts that produced them, so they appear in the Recent strip</li>
+  <li>Your preferences — default style, aspect ratio, image quality, sound, haptics, animated background</li>
+</ul>
+<p>None of it is transmitted anywhere on its own; the only exception is a report you choose to send
+(section 9). Uninstalling the app, or clearing its data in
+Android Settings, deletes all of it permanently. You can also clear it any time from
+<em>Settings → Storage → Clear cache</em>.</p>
+<p>If you tap <strong>Download</strong>, a copy is written to your phone's gallery
+(Pictures/NeuralCanvas). If you tap <strong>Share</strong>, the image is handed to whichever app you
+choose through Android's standard share sheet, and that app then handles it under its own policy.
+Files copied to the gallery or sent to other apps remain on your phone, or with those apps, after
+NeuralCanvas is uninstalled.</p>
+
+<h2>3. What is sent when you generate an image</h2>
+<p>When you tap Generate, the app sends over HTTPS to <strong>Pollinations.ai</strong>:</p>
+<ul>
+  <li>the prompt text you typed, including any style preset wording</li>
+  <li>the image dimensions derived from your aspect-ratio and quality choices</li>
+  <li>a randomly generated seed number</li>
+  <li>an instruction to apply Pollinations.ai's safety filter</li>
+</ul>
+<p>The app authenticates with a developer API key that it holds on your behalf. You do not need a
+Pollinations account and are never asked for credentials. Pollinations.ai may log requests to operate
+the service and prevent abuse. See <a href="https://pollinations.ai">pollinations.ai</a>.</p>
+<p><strong>Nothing identifying you or your device is attached</strong> — no account, no user ID, no
+advertising ID.</p>
+<p class="notice"><strong>Do not type personal, confidential or sensitive information into the prompt
+box.</strong> Treat anything you enter as text you are sending to an outside AI service.</p>
+
+<h3>3.1 Content safety</h3>
+<p>NeuralCanvas does not create nude, sexual or graphically violent images. Before anything is sent,
+the app checks your prompt on your device and refuses those requests; that check sends nothing
+anywhere. Every request that does go out also asks Pollinations.ai to apply its own safety filter,
+which refuses sexual and violent prompts before any image is made.</p>
+
+<h2>4. Advertising (Google AdMob)</h2>
+<p>The app displays banner, interstitial and app-open ads supplied by Google AdMob. When an ad is
+requested or shown, Google's SDK may collect:</p>
+<ul>
+  <li>your device's <strong>Advertising ID</strong> (a resettable identifier you control in Android settings)</li>
+  <li><strong>IP address</strong>, used for approximate location, fraud prevention and frequency capping</li>
+  <li><strong>coarse location derived from IP</strong> — the app requests no location permission and has no access to GPS</li>
+  <li><strong>device information</strong> (model, OS version, language, screen size)</li>
+  <li><strong>ad interaction data</strong> (ads shown, taps, time spent)</li>
+  <li><strong>diagnostic data</strong> from the ad SDK</li>
+</ul>
+<p>We do not receive your Advertising ID or IP address ourselves; Google processes this data to serve
+the ads. See <a href="https://support.google.com/admob/answer/6128543">AdMob &amp; AdSense</a> and the
+<a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+<p>You can reset or delete your Advertising ID at any time in <em>Android Settings → Privacy → Ads</em>.</p>
+
+<h3>4.1 Consent (EEA, UK and Switzerland)</h3>
+<p>If you are in a region covered by the GDPR or the UK GDPR, the app shows a consent message from
+<strong>Google's certified Consent Management Platform</strong> the first time it opens, before any ad
+is requested. Your answer determines whether ads are personalised, and <strong>no ad request is made
+until you have answered</strong> — the banner does not even load.</p>
+<p>You can change that choice at any time from <em>Settings → Privacy options</em> inside the app.
+That entry point appears only for users who were shown a message. Outside those regions no message is
+shown and the app does not ask.</p>
+
+<h2>5. Voice input (optional)</h2>
+<p>If you tap the microphone icon on the Create screen, the app launches your device's built-in
+speech recognition, typically provided by Google. Your voice is processed by that system under
+<a href="https://policies.google.com/privacy">Google's privacy policy</a>. <strong>NeuralCanvas itself
+never records, stores or transmits audio</strong> — it receives only the transcribed text, which then
+becomes your prompt.</p>
+
+<h2>6. Permissions</h2>
+<table>
+  <tr><th>Permission</th><th>Why</th></tr>
+  <tr><td><code>INTERNET</code></td><td>Generate images, send reports and load ads</td></tr>
+  <tr><td><code>WRITE_EXTERNAL_STORAGE</code> (Android 9 and below only)</td><td>Save a generated image to your gallery when you tap Download</td></tr>
+  <tr><td><code>com.google.android.gms.permission.AD_ID</code></td><td>Added by the Google Mobile Ads SDK to serve ads</td></tr>
+</table>
+<p>The microphone is <strong>not</strong> declared as an app permission — voice input runs through the
+system speech-recognition screen, which manages its own permission.</p>
+
+<h2>7. Children's privacy</h2>
+<p>NeuralCanvas is not directed at children under 13, and we do not knowingly collect personal data
+from children. If you believe a child has provided data through this app, contact us at the address
+above and we will assist where we can.</p>
+
+<h2>8. Changes to this policy</h2>
+<p>We may update this policy from time to time. The dates at the top reflect the latest revision.
+Continued use of the app after a change means you accept the revised policy.</p>
+
+<h2>9. Reporting an image</h2>
+<p>AI models can occasionally produce output that is offensive, unsafe or otherwise wrong. Every
+generated image can be reported from inside the app — tap the <strong>flag</strong> at the top of the
+Result screen, or <strong>Report this image</strong> below the refine box. You pick a reason and can add
+a note. The report is sent without leaving the app, and the image is removed from the app straight
+away.</p>
+<p>A report contains the reason, your note if you wrote one, the prompt, the image's reference number,
+style, aspect ratio and creation time, and the app version. <strong>It does not contain the image
+itself, and nothing identifying you or your device.</strong></p>
+<p>Reports are submitted to a Google Form operated by greybits; Google stores the responses for us in a
+spreadsheet only we can read, under the <a href="https://policies.google.com/privacy">Google Privacy
+Policy</a>. If you are offline, the report waits on your device and is sent the next time the app
+starts. Reports are read by a person and used to improve the app's content filtering.</p>
+
+<h2>10. Contact</h2>
+<p>Questions about this policy can be sent to
+<a href="mailto:greysonmiller67@gmail.com">greysonmiller67@gmail.com</a>.</p>
+
+<footer>NeuralCanvas — greybits</footer>
+
+</main>
+</body>
+</html>
